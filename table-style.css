@@ -1,0 +1,14 @@
+table, td,th{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 15px;
+    padding: 15px;
+}
+caption{
+    font-weight: 700;
+}
+tr{
+    text-align: center;
+}

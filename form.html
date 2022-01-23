@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <form>
+       <fieldset>
+         <legend> Personal Info </legend><br>
+       <div>
+          <label for="fullname"> Fullname: </label>
+           <input type="text" name="fullname" id="fullname">
+        </div> <br>
+        
+          <div>
+            <label for="password"> Password: </label>
+            <input type="password" name="password" id="password">
+         </div> <br>
+            <div>
+              <label for="dob"> Date of Birth: </label>
+              <input type="date" name="dob" id="dob">
+            </div> <br>
+        
+           <div>
+               <label for="photo"> Choose your photo: </label>
+               <input type="file" name="photo" id="photo">
+            </div> <br>
+        
+           <div>
+             <label for="gender"> Gender: </label>
+              <input type="radio" name="gender" id="gender" value="Male"> Male
+              <input type="radio" name="gender" id="gender" value="FeMale"> Female
+              <input type="radio" name="gender" id="gender" value="Others"> Others
+           </div> <br>
+        
+          <div>
+             <label for="religion"> Religion: </label>
+              <input type="checkbox" name="c1" id="muslim" value="Muslim"> Islam
+              <input type="checkbox" name="c2" id="hindu" value="Hindu"> Hindu
+              <input type="checkbox" name="c3" id="others" value="others"> Others
+           </div> <br>
+           <div>
+              <label for="department"> Departpart: </label>
+                <select name="department">
+                    <option value="cse"> CSE </option>
+                    <option value="eee"> EEE </option>
+                    <option value="llb"> LLB </option>
+               </select>
+            </div>
+        </fieldset>
+        <br>
+
+      <fieldset>
+            <legend> Contact Info </legend> <br>
+          <div>
+           <label for="email"> Email: </label>
+           <input type="email" name="email" id="email">
+         </div> <br>
+        
+          <div>
+           <label for="mobile number"> Mobile Number: </label>
+           <input type="text" name="number" id="number">
+         </div> <br>
+       
+         <div>
+           <label for="present address"> Present Address: </label> <br>
+           <textarea cols="30" rows="10"> </textarea>
+         </div> <br>
+           
+         <div>
+           <label for="Permanent Address"> Permanent Address: </label><br>
+          <textarea cols="30" rows="10"> </textarea>
+         </div>     
+     </fieldset>
+        
+        <div>
+          <label for="message"> Massage: </label><br>
+          <textarea cols="30" rows="10"> </textarea>
+       </div> <br>
+        <div>
+          <input type="submit" value="Register">
+          <input type="reset" value="Clear"> 
+        </div>
+ </form>
+ 
+</body>
+</html>

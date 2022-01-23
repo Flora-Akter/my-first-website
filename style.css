@@ -1,0 +1,57 @@
+h1{
+    color: darkblue;
+    background-color: darkgoldenrod;
+    font-size: large;
+    height: 50px;
+    width: 900px;
+    text-align: center;
+}
+p{
+    color: salmon;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#soni{
+    color: rgb(129, 26, 115);
+    font-size: 30px;
+}
+#flora{
+    color: rgb(62, 16, 121);
+}
+.friend{
+    color: rgb(83, 30, 83);
+    font-size: 20px;
+    background-color: wheat;
+    width: 900px;
+}
+h1.friend{
+    font-size: 60px;
+    background-color: lightcoral;
+}   
+
+.better{
+    color: lawngreen;
+}
+img{
+    height: 400px;
+    width: 600px;
+}
+.blog{
+    color: rgb(197, 118, 28);
+    background-color: rgb(59, 59, 46);
+    border: 10px solid hsl(27, 80%, 36%);
+    border-radius: 30px;
+    margin: 10px 10px 30px 10px;
+    padding: 10px 20px 30px 10px;
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
